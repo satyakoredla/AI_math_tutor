@@ -1,0 +1,36 @@
+SEQUENCES AND SERIES — JEE Mathematics
+
+=== ARITHMETIC PROGRESSION (AP) ===
+General term: a_n = a + (n-1)d
+Sum of n terms: S_n = n/2 * (2a + (n-1)d) = n/2 * (first + last)
+where a = first term, d = common difference
+Arithmetic mean of a and b: AM = (a+b)/2
+
+=== GEOMETRIC PROGRESSION (GP) ===
+General term: a_n = a * r^(n-1)
+Sum of n terms: S_n = a(r^n - 1)/(r - 1)  (r ≠ 1)
+Sum to infinity (|r| < 1): S_∞ = a / (1 - r)
+Geometric mean of a and b: GM = sqrt(ab)
+
+=== ARITHMETICO-GEOMETRIC PROGRESSION ===
+Terms: a, (a+d)r, (a+2d)r^2, ...
+Sum method: use S - rS trick
+
+=== HARMONIC PROGRESSION (HP) ===
+a, b, c in HP ↔ 1/a, 1/b, 1/c in AP
+Harmonic mean: HM = 2ab/(a+b)
+
+Relation: AM ≥ GM ≥ HM (for positive reals)
+
+=== STANDARD SUMMATIONS ===
+Σ_{k=1}^{n} k = n(n+1)/2
+Σ_{k=1}^{n} k^2 = n(n+1)(2n+1)/6
+Σ_{k=1}^{n} k^3 = [n(n+1)/2]^2
+Σ_{k=0}^{n} r^k = (r^(n+1) - 1)/(r-1)
+
+=== INFINITE SERIES ===
+e^x = 1 + x + x^2/2! + x^3/3! + ...
+sin x = x - x^3/3! + x^5/5! - ...
+cos x = 1 - x^2/2! + x^4/4! - ...
+ln(1+x) = x - x^2/2 + x^3/3 - ...  (|x| ≤ 1)
+(1+x)^n = 1 + nx + n(n-1)x^2/2! + ...  (|x| < 1)

@@ -1,0 +1,36 @@
+COMPLEX NUMBERS — JEE Mathematics
+
+=== DEFINITION ===
+z = a + bi, where a = Re(z), b = Im(z), i = sqrt(-1)
+i^1 = i, i^2 = -1, i^3 = -i, i^4 = 1  (cycle of 4)
+Conjugate: z* = a - bi
+Modulus: |z| = sqrt(a^2 + b^2)
+Argument: arg(z) = θ = arctan(b/a)
+
+=== POLAR FORM ===
+z = r(cos θ + i sin θ) = r * e^(iθ)  (Euler's form)
+r = |z|, θ = arg(z)
+
+=== OPERATIONS ===
+(a+bi) + (c+di) = (a+c) + (b+d)i
+(a+bi)(c+di) = (ac-bd) + (ad+bc)i
+1/(a+bi) = (a-bi)/(a^2+b^2)
+Division: (z1/z2) = (z1 * z2*) / |z2|^2
+
+|z1 * z2| = |z1| * |z2|
+arg(z1 * z2) = arg(z1) + arg(z2)
+
+=== DE MOIVRE'S THEOREM ===
+(cos θ + i sin θ)^n = cos(nθ) + i sin(nθ)
+n-th roots of unity: z^n = 1 → z = e^(2πki/n), k = 0,1,...,n-1
+Cube roots of unity: 1, ω, ω^2 where ω = e^(2πi/3)
+ω = -1/2 + (√3/2)i,  1 + ω + ω^2 = 0,  ω^3 = 1
+
+=== LOCUS AND GEOMETRY ===
+|z - z0| = r: circle with center z0, radius r
+|z - z1| = |z - z2|: perpendicular bisector
+|z - z1| + |z - z2| = 2a: ellipse
+
+=== TRIANGLE INEQUALITY ===
+|z1 + z2| ≤ |z1| + |z2|
+||z1| - |z2|| ≤ |z1 - z2|

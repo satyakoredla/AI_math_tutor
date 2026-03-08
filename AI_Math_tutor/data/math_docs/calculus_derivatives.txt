@@ -1,0 +1,42 @@
+CALCULUS — DERIVATIVES — JEE Mathematics
+
+=== BASIC DERIVATIVE RULES ===
+d/dx (c) = 0           (constant rule)
+d/dx (x) = 1
+d/dx (x^n) = n*x^(n-1)  (power rule)
+d/dx (cf(x)) = c * f'(x)  (constant multiple)
+d/dx (f + g) = f' + g'    (sum rule)
+d/dx (f - g) = f' - g'    (difference rule)
+d/dx (fg) = f'g + fg'     (product rule)
+d/dx (f/g) = (f'g - fg') / g^2   (quotient rule)
+d/dx (f(g(x))) = f'(g(x)) * g'(x)  (chain rule)
+
+=== STANDARD DERIVATIVES ===
+d/dx (e^x) = e^x
+d/dx (a^x) = a^x * ln(a)
+d/dx (ln x) = 1/x
+d/dx (log_a x) = 1 / (x * ln a)
+
+d/dx (sin x) = cos x
+d/dx (cos x) = -sin x
+d/dx (tan x) = sec^2 x
+d/dx (cot x) = -csc^2 x
+d/dx (sec x) = sec x * tan x
+d/dx (csc x) = -csc x * cot x
+
+=== INVERSE TRIG DERIVATIVES ===
+d/dx (arcsin x) = 1 / sqrt(1 - x^2)
+d/dx (arccos x) = -1 / sqrt(1 - x^2)
+d/dx (arctan x) = 1 / (1 + x^2)
+
+=== HIGHER ORDER DERIVATIVES ===
+f''(x) = d^2y/dx^2 = second derivative
+If f'(c) = 0 and f''(c) > 0: local minimum at x = c
+If f'(c) = 0 and f''(c) < 0: local maximum at x = c
+If f'(c) = 0 and f''(c) = 0: inflection point (check further)
+
+=== APPLICATIONS ===
+Tangent line at (a, f(a)): y - f(a) = f'(a)(x - a)
+Normal line at (a, f(a)): y - f(a) = -1/f'(a) * (x - a)
+Rate of change = dy/dx
+Increasing if f'(x) > 0; Decreasing if f'(x) < 0

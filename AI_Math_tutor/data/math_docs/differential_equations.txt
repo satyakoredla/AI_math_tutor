@@ -1,0 +1,42 @@
+DIFFERENTIAL EQUATIONS — JEE Mathematics
+
+=== BASIC CONCEPTS ===
+ODE: equation involving a function and its derivatives
+Order: highest derivative in the equation
+Degree: power of the highest order derivative (after making rational)
+General solution: contains n arbitrary constants (order n)
+Particular solution: specific values of constants
+
+=== VARIABLES SEPARABLE ===
+Form: dy/dx = f(x) * g(y)
+Method: dy/g(y) = f(x) dx → integrate both sides
+
+=== HOMOGENEOUS EQUATIONS ===
+Form: dy/dx = F(y/x) i.e. f(tx, ty) = f(x,y)
+Method: substitute y = vx, dy/dx = v + x dv/dx
+→ separates variables in v and x
+
+=== LINEAR FIRST ORDER ODE ===
+Form: dy/dx + P(x)*y = Q(x)
+Integrating factor: IF = e^(∫P dx)
+Solution: y * IF = ∫ Q * IF dx + C
+
+=== EXACT EQUATIONS ===
+M dx + N dy = 0 is exact if ∂M/∂y = ∂N/∂x
+Solution: F(x,y) = C where ∂F/∂x = M, ∂F/∂y = N
+
+=== BERNOULLI EQUATION ===
+Form: dy/dx + P(x)y = Q(x)y^n
+Substitute v = y^(1-n) to convert to linear form
+
+=== SECOND ORDER LINEAR ODE ===
+y'' + py' + qy = 0  (homogeneous with const. coeffs.)
+Characteristic equation: r^2 + pr + q = 0
+Roots r1, r2:
+  Real distinct: y = C1*e^(r1*x) + C2*e^(r2*x)
+  Real repeated (r1=r2=r): y = (C1 + C2*x)*e^(r*x)
+  Complex (r = a±bi): y = e^(ax)[C1 cos(bx) + C2 sin(bx)]
+
+=== APPLICATIONS ===
+Growth/Decay: dy/dt = ky → y = y0 * e^(kt)
+Newton's Law of Cooling: dT/dt = k(T - T_ambient)

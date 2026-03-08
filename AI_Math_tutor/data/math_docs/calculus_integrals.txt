@@ -1,0 +1,39 @@
+CALCULUS — INTEGRALS — JEE Mathematics
+
+=== BASIC INTEGRATION RULES ===
+∫ c dx = cx + C
+∫ x^n dx = x^(n+1)/(n+1) + C  (n ≠ -1)
+∫ 1/x dx = ln|x| + C
+∫ e^x dx = e^x + C
+∫ a^x dx = a^x / ln(a) + C
+
+=== TRIGONOMETRIC INTEGRALS ===
+∫ sin x dx = -cos x + C
+∫ cos x dx = sin x + C
+∫ tan x dx = -ln|cos x| + C = ln|sec x| + C
+∫ cot x dx = ln|sin x| + C
+∫ sec x dx = ln|sec x + tan x| + C
+∫ csc x dx = ln|csc x - cot x| + C
+∫ sec^2 x dx = tan x + C
+∫ csc^2 x dx = -cot x + C
+
+=== INVERSE TRIG INTEGRALS ===
+∫ 1/sqrt(1 - x^2) dx = arcsin(x) + C
+∫ -1/sqrt(1 - x^2) dx = arccos(x) + C
+∫ 1/(1 + x^2) dx = arctan(x) + C
+
+=== INTEGRATION TECHNIQUES ===
+Substitution: let u = g(x), then ∫ f(g(x))g'(x)dx = ∫ f(u)du
+Integration by parts: ∫ u dv = uv - ∫ v du  (choose u = LIATE order)
+Partial fractions: decompose rational function before integrating
+
+=== DEFINITE INTEGRAL PROPERTIES ===
+∫_a^b f(x)dx = -∫_b^a f(x)dx
+∫_a^a f(x)dx = 0
+∫_a^b f(x)dx = ∫_a^c f(x)dx + ∫_c^b f(x)dx
+∫_-a^a f(x)dx = 2∫_0^a f(x)dx  (if f is even)
+∫_-a^a f(x)dx = 0               (if f is odd)
+
+=== FUNDAMENTAL THEOREM OF CALCULUS ===
+If F'(x) = f(x), then ∫_a^b f(x)dx = F(b) - F(a)
+d/dx [∫_a^x f(t)dt] = f(x)

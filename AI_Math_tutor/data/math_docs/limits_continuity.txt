@@ -1,0 +1,42 @@
+LIMITS AND CONTINUITY — JEE Mathematics
+
+=== DEFINITION ===
+lim(x→a) f(x) = L means f(x) approaches L as x approaches a.
+Left-hand limit: lim(x→a⁻) f(x)
+Right-hand limit: lim(x→a⁺) f(x)
+Limit exists iff LHL = RHL
+
+=== STANDARD LIMITS ===
+lim(x→0) sin(x)/x = 1
+lim(x→0) tan(x)/x = 1
+lim(x→0) (1 - cos x)/x^2 = 1/2
+lim(x→0) (e^x - 1)/x = 1
+lim(x→0) (a^x - 1)/x = ln(a)
+lim(x→0) ln(1 + x)/x = 1
+lim(x→∞) (1 + 1/x)^x = e
+lim(x→0) (1 + x)^(1/x) = e
+
+=== LIMIT RULES ===
+lim [f(x) ± g(x)] = lim f(x) ± lim g(x)
+lim [f(x) * g(x)] = lim f(x) * lim g(x)
+lim [f(x)/g(x)] = lim f(x) / lim g(x)  (if lim g ≠ 0)
+lim [c * f(x)] = c * lim f(x)
+
+=== L'HÔPITAL'S RULE ===
+If lim f(x)/g(x) gives 0/0 or ∞/∞ indeterminate form:
+lim f(x)/g(x) = lim f'(x)/g'(x)
+
+=== CONTINUITY ===
+f is continuous at x = a if:
+1. f(a) is defined
+2. lim(x→a) f(x) exists
+3. lim(x→a) f(x) = f(a)
+
+Types of discontinuity:
+- Removable: limit exists but ≠ f(a)
+- Jump: LHL ≠ RHL
+- Infinite: limit is ±∞
+
+=== THEOREMS ===
+Intermediate Value Theorem (IVT): If f is continuous on [a,b] and k is between f(a) and f(b), then there exists c in (a,b) with f(c) = k.
+Squeeze Theorem: If g(x) ≤ f(x) ≤ h(x) and lim g = lim h = L, then lim f = L.

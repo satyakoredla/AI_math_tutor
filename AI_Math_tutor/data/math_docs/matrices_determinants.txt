@@ -1,0 +1,45 @@
+MATRICES AND DETERMINANTS — JEE Mathematics
+
+=== MATRIX BASICS ===
+Matrix: rectangular array of numbers
+Order m × n: m rows, n columns
+Square matrix: m = n
+Row matrix: 1 × n;  Column matrix: m × 1
+Identity matrix I: diagonal entries = 1, rest = 0
+Zero matrix O: all entries = 0
+
+=== MATRIX OPERATIONS ===
+Addition: (A + B)_ij = A_ij + B_ij  (same order)
+Scalar multiplication: (cA)_ij = c * A_ij
+Transpose: (A^T)_ij = A_ji
+Multiplication: (AB)_ij = Σ A_ik * B_kj  (A: m×p, B: p×n → AB: m×n)
+
+Properties:
+(A + B)^T = A^T + B^T
+(AB)^T = B^T * A^T
+(AB)C = A(BC)  (associativity)
+A(B + C) = AB + AC
+
+=== DETERMINANT ===
+For 2×2: det|a b; c d| = ad - bc
+For 3×3 (cofactor expansion along row 1):
+det = a11*C11 + a12*C12 + a13*C13
+where Cij = (-1)^(i+j) * Mij (Mij = minor)
+
+Properties:
+|AB| = |A| * |B|
+|A^T| = |A|
+|kA| = k^n |A| (n = order of A)
+If two rows/cols are equal, det = 0
+Swapping two rows changes sign of det
+
+=== INVERSE MATRIX ===
+A^(-1) exists iff det(A) ≠ 0 (A is non-singular)
+A * A^(-1) = I
+A^(-1) = adj(A) / det(A)
+adj(A) = transpose of cofactor matrix
+
+=== SOLVING LINEAR SYSTEMS ===
+AX = B → X = A^(-1)B  (if A invertible)
+Cramer's Rule: x_i = det(A_i) / det(A)
+where A_i = A with i-th column replaced by B

@@ -1,0 +1,39 @@
+PROBABILITY AND STATISTICS — JEE Mathematics
+
+=== BASIC PROBABILITY ===
+P(A) = favorable outcomes / total outcomes
+0 ≤ P(A) ≤ 1
+P(A') = 1 - P(A)  (complement)
+P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+P(A ∩ B) = P(A) * P(B)   (if A, B independent)
+P(A | B) = P(A ∩ B) / P(B)   (conditional probability)
+
+=== BAYES' THEOREM ===
+P(A | B) = P(B | A) * P(A) / P(B)
+
+=== RANDOM VARIABLES ===
+Expectation: E(X) = Σ x * P(X = x)
+Variance: Var(X) = E(X^2) - [E(X)]^2
+Standard deviation: σ = sqrt(Var(X))
+E(aX + b) = aE(X) + b
+Var(aX + b) = a^2 * Var(X)
+
+=== DISTRIBUTIONS ===
+Binomial Distribution:
+P(X = k) = C(n,k) * p^k * (1-p)^(n-k)
+Mean = np, Variance = np(1-p)
+
+Poisson Distribution:
+P(X = k) = (e^(-λ) * λ^k) / k!
+Mean = λ, Variance = λ
+
+Normal Distribution:
+Bell curve, symmetric about mean μ
+68-95-99.7 rule: 68% within 1σ, 95% within 2σ, 99.7% within 3σ
+
+=== STATISTICS ===
+Mean = (Σ xi) / n
+Median = middle value (sorted)
+Mode = most frequent value
+Range = max - min
+IQR = Q3 - Q1

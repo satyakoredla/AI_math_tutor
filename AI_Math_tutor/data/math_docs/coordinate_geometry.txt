@@ -1,0 +1,45 @@
+COORDINATE GEOMETRY — JEE Mathematics
+
+=== DISTANCE AND SECTION FORMULAE ===
+Distance between (x1,y1) and (x2,y2): d = sqrt((x2-x1)^2 + (y2-y1)^2)
+Section formula (internal): P = ((m*x2 + n*x1)/(m+n), (m*y2 + n*y1)/(m+n))
+Midpoint: M = ((x1+x2)/2, (y1+y2)/2)
+Area of triangle with vertices (x1,y1),(x2,y2),(x3,y3):
+Area = (1/2)|x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|
+
+=== STRAIGHT LINES ===
+Slope: m = (y2-y1)/(x2-x1) = tan θ
+Slope-intercept: y = mx + c
+Point-slope: y - y1 = m(x - x1)
+Two-point form: (y-y1)/(y2-y1) = (x-x1)/(x2-x1)
+Intercept form: x/a + y/b = 1
+General form: ax + by + c = 0
+
+Parallel lines: same slope (m1 = m2)
+Perpendicular lines: m1 * m2 = -1
+
+Distance from point (x0,y0) to line ax+by+c=0:
+d = |ax0 + by0 + c| / sqrt(a^2 + b^2)
+
+=== CIRCLE ===
+Standard: (x-h)^2 + (y-k)^2 = r^2, center (h,k), radius r
+General: x^2 + y^2 + 2gx + 2fy + c = 0
+Center: (-g, -f), Radius: sqrt(g^2 + f^2 - c)
+
+Tangent at (x1,y1) on x^2+y^2=r^2:
+x*x1 + y*y1 = r^2
+
+=== PARABOLA ===
+y^2 = 4ax: focus (a,0), directrix x = -a, vertex (0,0)
+x^2 = 4ay: focus (0,a), directrix y = -a
+
+=== ELLIPSE ===
+x^2/a^2 + y^2/b^2 = 1  (a > b > 0)
+Foci: (±c, 0) where c = sqrt(a^2 - b^2)
+Eccentricity e = c/a (0 < e < 1)
+
+=== HYPERBOLA ===
+x^2/a^2 - y^2/b^2 = 1
+Foci: (±c, 0) where c = sqrt(a^2 + b^2)
+Eccentricity e = c/a (e > 1)
+Asymptotes: y = ±(b/a)x

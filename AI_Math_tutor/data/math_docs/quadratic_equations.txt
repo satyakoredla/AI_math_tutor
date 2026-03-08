@@ -1,0 +1,37 @@
+QUADRATIC EQUATIONS — JEE Mathematics
+
+=== STANDARD FORM ===
+ax^2 + bx + c = 0   (a ≠ 0)
+Roots: x = (-b ± sqrt(b^2 - 4ac)) / (2a)
+Discriminant D = b^2 - 4ac
+
+=== NATURE OF ROOTS ===
+D > 0: two distinct real roots
+D = 0: two equal real roots (x = -b/2a)
+D < 0: two complex conjugate roots (no real roots)
+D ≥ 0 and perfect square: rational roots (if a,b,c rational)
+
+=== VIETA'S FORMULAS ===
+Sum of roots: α + β = -b/a
+Product of roots: α × β = c/a
+α - β = sqrt(D)/|a| (difference of roots)
+
+=== FORMING QUADRATIC FROM ROOTS ===
+If roots are α, β:
+x^2 - (α+β)x + αβ = 0
+
+=== COMMON TRANSFORMATIONS ===
+If α, β are roots of f(x) = 0, the equation with roots:
+α+k, β+k: replace x by x-k
+kα, kβ: replace x by x/k
+1/α, 1/β: replace x by 1/x
+α^2, β^2: compute (α+β)^2, (αβ)^2, α^2+β^2 = (α+β)^2 - 2αβ
+
+=== SIGN ANALYSIS ===
+ax^2 + bx + c > 0 for all x ↔ a > 0 and D < 0
+ax^2 + bx + c < 0 for all x ↔ a < 0 and D < 0
+
+=== MAXIMUM AND MINIMUM ===
+Vertex: x = -b/(2a)
+Min value (a>0): c - b^2/(4a) = (4ac - b^2)/(4a)
+Max value (a<0): c - b^2/(4a)

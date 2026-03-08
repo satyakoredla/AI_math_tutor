@@ -1,0 +1,45 @@
+VECTORS AND 3D GEOMETRY — JEE Mathematics
+
+=== VECTORS ===
+Vector a = a1*i + a2*j + a3*k
+Magnitude: |a| = sqrt(a1^2 + a2^2 + a3^2)
+Unit vector: a_hat = a / |a|
+Position vector of P(x,y,z): r = x*i + y*j + z*k
+
+=== VECTOR OPERATIONS ===
+Addition: a + b = (a1+b1)i + (a2+b2)j + (a3+b3)k
+Scalar mult: c*a = (ca1)i + (ca2)j + (ca3)k
+
+Dot Product (scalar product):
+a · b = a1b1 + a2b2 + a3b3 = |a||b|cos θ
+θ = arccos(a·b / (|a||b|))
+a ⊥ b ↔ a·b = 0
+Projection of a on b = (a·b)/|b|
+
+Cross Product (vector product):
+a × b = |i   j   k |
+        |a1  a2  a3|
+        |b1  b2  b3|
+= (a2b3-a3b2)i - (a1b3-a3b1)j + (a1b2-a2b1)k
+|a × b| = |a||b|sin θ
+a × b ⊥ both a and b
+a ∥ b ↔ a × b = 0
+
+Scalar triple product: [a b c] = a · (b × c)
+= volume of parallelepiped formed by a, b, c
+a, b, c coplanar ↔ [a b c] = 0
+
+=== 3D COORDINATE GEOMETRY ===
+Distance: d = sqrt((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)
+Section formula: ((m*x2+n*x1)/(m+n), (m*y2+n*y1)/(m+n), (m*z2+n*z1)/(m+n))
+
+Direction cosines l, m, n:
+l = cos α, m = cos β, n = cos γ
+l^2 + m^2 + n^2 = 1
+
+Equation of line through (x0,y0,z0) with direction (a,b,c):
+(x-x0)/a = (y-y0)/b = (z-z0)/c = t
+
+Equation of plane:
+ax + by + cz = d, normal vector = (a,b,c)
+Distance from point to plane = |ax0+by0+cz0-d| / sqrt(a^2+b^2+c^2)
